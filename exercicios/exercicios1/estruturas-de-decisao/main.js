@@ -71,10 +71,14 @@ let pontuacao = 0;
         //pontuacao == pontuacao + 10;
         pontuacao += 10;
     }   else if ( formacao == "especialização" ) {
-
+        pontuacao += 20;
+    } else if ( formacao == "mestrado") {
+        pontuacao += 30;
+    } else if ( formacao == "doutorado") {
+        pontuacao += 40;
     }
 
-
+    console.log("")
 
 
 
