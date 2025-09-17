@@ -19,10 +19,10 @@
 
 // 3
 
-let n =  prompt("Insira um número");
-let base = 1;
+// let n =  prompt("Insira um número");
+// let base = 1;
 
-while ( base <= n) {
-    console.log(base);
-    base = base + 1
-}
+// while ( base <= n) {
+//     console.log(base);
+//     base = base + 1
+// }
