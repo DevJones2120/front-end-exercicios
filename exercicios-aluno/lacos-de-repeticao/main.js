@@ -1,3 +1,5 @@
+// WHILE
+
 // prompt("Insira seu nome por favor")
 
 // // 1
@@ -17,6 +19,7 @@
 //     number = number - 1;
 // }
 
+
 // 3
 
 // let n =  prompt("Insira um número");
@@ -26,3 +29,53 @@
 //     console.log(base);
 //     base = base + 1
 // }
+
+
+
+// DO WHILE
+/*
+EXEMPLO
+
+let nome;
+
+do {
+  nome = prompt("Qual o seu nome?");
+} while (!nome);
+    console.log("Hello " + yourName);
+*/
+
+
+// 1
+// let number;
+
+// do {
+//     number = prompt("Insira um número");
+// }   while (number != 1 && number != 0);
+    
+
+// 2
+// let senha = "gato";
+
+// do {
+//     senha = prompt("Insira sua senha");
+// }   while (senha != "gato");
+
+
+//3
+let numero;
+let bigNumber = 0;
+let contador = 0;
+
+do {
+    numero = prompt("insira seu codigo");
+    numero = Number(numero);
+    contador = contador + 1
+
+    if (number > bigNumber) {
+        bigNumber = numero; 
+    }
+} while (contador < 5);
+
+console.log(bigNumber)
+
+
