@@ -41,7 +41,7 @@ let nome;
 do {
   nome = prompt("Qual o seu nome?");
 } while (!nome);
-    console.log("Hello " + yourName);
+    console.log("Hello " + nome);
 */
 
 
@@ -54,28 +54,56 @@ do {
     
 
 // 2
-// let senha = "gato";
-
+// let senha = "Gato";
+// let senhaUsuario // Declaração
 // do {
-//     senha = prompt("Insira sua senha");
+//     senha = prompt("Insira sua senha"); // Atribuição
 // }   while (senha != "gato");
 
 
+//
+// do {
+//     senhaUsuario = prompt("Insira sua senha")
+// } while (!senha == senhaUsuario)
+//
+
+
+
 //3
-let numero;
-let bigNumber = 0;
-let contador = 0;
+// let numero;
+// let numeroMaior = 0;
+// let contador = 0;
 
-do {
-    numero = prompt("insira seu codigo");
-    numero = Number(numero);
-    contador = contador + 1
+// do {
+//     numero = prompt("insira seu codigo");
+//     numero = Number(numero); // Converter string para número
+//     contador = contador + 1
 
-    if (number > bigNumber) {
-        bigNumber = numero; 
-    }
-} while (contador < 5);
+//     if (numero > numeroMaior) {
+//         numeroMaior = numero; 
+//     }
+// } while (contador < 5);
 
-console.log(bigNumber)
+// console.log(numeroMaior)
 
 
+// FOR
+/*
+for (let contador = 0; contador <= 12; contador = contador + 2) {
+  console.log(contador);
+}
+*/
+
+//1
+// for (let contador = 0; contador < 101; contador = contador +1) {
+//     console.log(contador)
+// }
+
+
+//2
+let peso = 0;
+
+
+for (let contador = 1; contador < 10; contador++) {
+    peso += Number(prompt("insira seu peso"));
+}   alert('Média de pesos é:' +  (peso / 10));
