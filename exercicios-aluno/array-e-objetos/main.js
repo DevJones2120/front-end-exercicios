@@ -51,4 +51,3 @@ for (let contador = 0 ; contador < usoDiasDaSemana.length ; contador++) {
 // console.log(typeof usoDiasDaSemana[0]); //
 // console.log(typeof indicadorDeUso); // Function
 // usoDiasDaSemana[0];
-
