@@ -92,8 +92,10 @@ tipos de funções
              
 5 //
 function calcularDesconto(valor, percentualDeDesconto) {
+
 if ( typeof valor == "valor" && typeof percentualDeDesconto == "number" ) {
 // percentualDeDesconto: 0-100
+
     let valorDoDesconto = (valor * percentualDeDesconto) / 100;
     let valorFinal = (valor - valorDoDesconto);
     return valorFinal;
@@ -101,6 +103,7 @@ if ( typeof valor == "valor" && typeof percentualDeDesconto == "number" ) {
         console.log("não foi possivel calcular o desconto para ", valor)
         return valor;
     }
+    
 }
 console.log(calcularDesconto(2000,20));
 console.log(calculaDesconto("Azul",50));
